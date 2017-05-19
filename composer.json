@@ -1,0 +1,40 @@
+{
+    "name": "dolphiq/twighelpers",
+    "description": "Helper plugin for Craft3 CMS twig templates",
+    "type": "craft-plugin",
+    "version": "1.0.3",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft3"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dolphiq",
+            "email": "info@dolphiq.nl",
+            "homepage": "https://dolphiq.nl/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "~3.0.0-beta.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "dolphiq\\twighelpers\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "TwigHelpers",
+        "handle": "twighelpers",
+        "schemaVersion": "1.0.0",
+        "developer": "Dolphiq",
+        "developerUrl": "https://dolphiq.nl/",
+        "description": "Twig template helper plugin for Craft 3 CMS",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "dolphiq\\twighelpers\\TwigHelpers"
+    }
+}
