@@ -29,7 +29,7 @@ class TwigHelpers extends \craft\base\Plugin
 
         self::$plugin = $this;
 
-        Craft::$app->view->twig->addExtension(new LaravelMixTwigExtension());
+        Craft::$app->view->registerTwigExtension(new LaravelMixTwigExtension());
 
         Craft::info('LaravelMix plugin loaded', __METHOD__);
     }
